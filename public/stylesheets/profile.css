@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+    /* background-attachment: fixed;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.container {
+    margin: 0%;
+    padding: 0%;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent{
+    height: 400px;
+    width: 250px;
+    justify-content: center;   
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    line-height: 2px;
+}
+
+.log {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: rgb(215, 215, 215);
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;  
+}
+
+.log:hover {
+    background-color: rgb(198, 198, 198);
+}
+
+.discription {
+  text-align: center;
+  font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+.profile-image{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#newContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 20px;  
+}
+
+.newCard {
+  width: 23%;
+  height: fit-content;
+  background-color: #ff080800;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 2px 6px 1px rgba(0, 0, 0, 0.1);
+}
+
+.newThumb {
+  width: 100%;
+  object-fit: cover;
+}
+
+.Content {
+  padding: 20px;
+  position: relative;
+}
+
+.Meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.cardTitle {
+  color: #580000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+
+
+

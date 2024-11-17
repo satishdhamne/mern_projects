@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/stylesheets/profile.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="transparent">
+          <img class="profile-image" src="https://i.pinimg.com/564x/18/74/2e/18742e5ca9e4aa6799527645f4617b37.jpg" alt="profile picture">
+          
+          <p style="font-size: 35px; margin-bottom: 10px; margin-top: 5px;"><b><%= userdoc.username %></b></p>
+          <p><%= userdoc.email %></p>
+          <p><%= userdoc.fullname %></p>
+          <div class="discription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, iure.</div>
+    
+          <div class="logs-p" style="display: flex; gap: 20px;">
+            <a href="/logout" class="log">Log out</a> 
+            <a href="#" class="log">Edit Profile</a> 
+          </div>
+
+
+          <form action="/upload" method="post" enctype="multipart/form-data" class="w-[750px] flex gap-6 items-center justify-between bg-white shadow-md rounded px-8 pt-6 pb-8 ">
+           <div class="flex gap-6">
+            <div>
+              <input 
+                type="text" 
+                name="imagecaption" 
+                id="imagecaption" 
+                placeholder="Enter image caption" 
+                class="shadow appearance-none border rounded w-[200px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              />
+            </div>
+            <div >
+              <input 
+                type="file" 
+                name="file" 
+                id="file" 
+                class="shadow appearance-none border rounded w-[250px] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              />
+            </div>
+           </div>
+            <div class="flex items-center justify-between">
+              <button 
+                type="submit" 
+                class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              >
+                Upload
+              </button>
+            </div>
+          </form>
+          
+
+        </div>
+        
+      </div>
+
+ <div id="newContainer" class="new-container">
+
+       <div class="newCard">
+            <img src="https://i.pinimg.com/564x/18/74/2e/18742e5ca9e4aa6799527645f4617b37.jpg" class="newThumb">
+            <div class="Content">
+              <h2 class="cardTitle">Here's Title</h2>
+            </div>
+       </div>
+
+       <div class="newCard">
+            <img src="https://i.pinimg.com/control/564x/9e/07/15/9e0715f07462e8e38c9a3f169b95d061.jpg" class="newThumb">
+            <div class="Content">
+              <h2 class="cardTitle">Here's Title</h2>
+            </div>
+       </div>
+
+       <div class="newCard">
+            <img src="https://i.pinimg.com/736x/6f/4e/ad/6f4eaddfb45810ecfbbefab432d77fd8.jpg" class="newThumb">
+            <div class="Content">
+              <h2 class="cardTitle">Here's Title</h2>
+            </div>
+       </div>
+
+       <div class="newCard">
+            <img src="https://i.pinimg.com/564x/be/cf/cd/becfcd01d8c81a1083435e673278ba38.jpg" class="newThumb">
+            <div class="Content">
+              <h2 class="cardTitle">Here's Title</h2>
+            </div>
+       </div>
+
+       <div class="newCard">
+            <img src="https://i.pinimg.com/control/564x/11/81/2f/11812f4a04f9a5ea463c6f2ca5e25226.jpg" class="newThumb">
+            <div class="Content">
+              <h2 class="cardTitle">Here's Title</h2>
+            </div>
+       </div>
+      
+ </div>
+  
+
+</body>
+</html>
+

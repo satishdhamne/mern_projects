@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px -1px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  width: 70%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+ 
+.img1{
+  width: 50px;
+  position: relative;
+  top: 5px;
+}
+.header {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  line-height: 16px;
+}
+.detail {
+  width: 100%;
+  height: 38px;
+  margin: 1px;
+  padding: 10px;
+  font-size: 10px;
+  color: gray;
+  border: 2px solid rgb(218, 214, 214);
+  border-radius: 10px;
+}
+.detail:focus {
+  box-shadow: 
+  0px -2px 0px 0px rgba(215, 10, 10, 0.4),  /* Shadow above the element */
+  0px 2px 0px 0px rgba(219, 33, 33, 0.4),   /* Shadow below the element */
+  2px 0px 0px 0px rgba(231, 51, 15, 0.4),   /* Shadow on the right side */
+  -2px 0px 0px 0px rgba(231, 62, 15, 0.4);  /* Shadow on the left side */
+
+  outline: none;
+}
+
+h4 {
+  font-size: 10px;
+  font-weight: 700;
+  position: relative;
+  left: -60px;
+  margin: 5px;
+}
+
+.forgot{
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  font-size: x-small;
+}
+
+.btn {
+  width: 100%;
+  height: 35px;
+  border: hidden;
+  border-radius: 20px;
+  font-size: 10px;
+  margin: 5px 0px;
+}
+
+.int {
+  background-color: #f30d19;
+  margin: 10px 0px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.int:hover{
+  background-color: #df0812;
+}
+
+.or {
+  font-size: 10px;
+  font-weight: 700;
+  margin: 5px 0px;
+}
+
+.fbk {
+  background-color: rgb(9, 128, 240);
+  margin: 5px 0px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.fbk a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.fbk:hover{
+  background-color: rgb(8, 110, 206);
+}
+.ggl{
+  text-align: center;
+  background-color: #ccc;
+}
+.ggl a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.ggl:hover{
+  background-color: #a0a0a0;
+}
+
+footer p {
+  font-size: 10px;
+  margin: 8px;
+  opacity: 0.7;
+}
+
+.login{
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   font-size: 12px;
+   margin-top: 15px;
+}
+
+hr {
+  width: 50%;
+  opacity: 0.4;
+  margin-left: 25%;
+}
+
